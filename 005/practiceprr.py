@@ -1,0 +1,11 @@
+numbers = (1, 2, 3, 4)
+numbers2 = (5, 6, 7)
+print(type(numbers))
+x = list(numbers)
+x2 = list(numbers2)
+print(x)
+print(type(x))
+print(x2)
+print(type(x2))
+number3= x + x2
+print(number3)
