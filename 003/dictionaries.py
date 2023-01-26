@@ -29,15 +29,17 @@ empty_dict.update({'name': 'Jack', 'surname': 'Smith', 'job': 'Programmer'})
 print(empty_dict)
 
 x = empty_dict.pop('name')  # remembers and deletes
-del empty_dict['surname']  # deletes
 print(empty_dict)
 print(x)
+del empty_dict['surname']  # deletes
+print(empty_dict)
 
 print(empty_dict.keys())
 print(empty_dict.values())
 print(empty_dict.items())
 
 for x in empty_dict.items():
+
     print(x[0])
     print(x[1])
 

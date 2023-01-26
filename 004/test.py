@@ -5,6 +5,9 @@ for person in people:
 for name, surname, age in people:
     print(name, surname, age)
 
+#while True:
+#    print('I can\'t stop!')
+
 x = 0
 while x < 100:
     print('I can\'t stop!', x)
